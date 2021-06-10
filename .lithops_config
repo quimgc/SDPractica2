@@ -1,0 +1,13 @@
+lithops:
+    storage : ibm_cos
+    storage_bucket : 2021quimgcpract2sd2021
+
+ibm_cf:
+    endpoint : https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints
+    namespace : quim.gonzalez@estudiants.urv.cat_dev
+    api_key : 4b8bc75a-0f11-410f-9817-42e75c9bfedd:qknu7e2h1Ts7fzttmL2brsLvw20YFgduIyugwkIcrygoc8cwtS9n1qpkOiqmm61a
+
+ibm_cos:
+   region : eu-de 
+   access_key : 721c0c4c6b6a4e9294995e1fb3355fb7
+   secret_key : d9987cfc5fec9492ba294c6ea272cb60c87695ed92f73f67
