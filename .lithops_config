@@ -1,13 +1,25 @@
 lithops:
     storage : ibm_cos
     storage_bucket : 2021quimgcpract2sd2021
+    data_limit : False
+
 
 ibm_cf:
-    endpoint : https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints
+    endpoint : https://eu-gb.functions.cloud.ibm.com
     namespace : quim.gonzalez@estudiants.urv.cat_dev
     api_key : 4b8bc75a-0f11-410f-9817-42e75c9bfedd:qknu7e2h1Ts7fzttmL2brsLvw20YFgduIyugwkIcrygoc8cwtS9n1qpkOiqmm61a
+    runtime : quimgc/lithops-custom-runtime-3.9:0.1
+    #run_time_memory : 1024
+
 
 ibm_cos:
    region : eu-de 
-   access_key : 721c0c4c6b6a4e9294995e1fb3355fb7
-   secret_key : d9987cfc5fec9492ba294c6ea272cb60c87695ed92f73f67
+   access_key : 4c40f8d4df8349adba5a0d5fd1bdc777
+   secret_key : 03ca5e5b3ae14adb878e0aadf2357a2df316ad4abcc20e87
+
+twitter:
+    api_key : EO3UCWcjUOFvqE8dYNadd4rhU
+    api_secret_key : 2uTEJ6yNL5eLlNcVlsWc9SYqXXbtXYXUeEuiPP7TeopcOrhX9N
+    bearer_token : AAAAAAAAAAAAAAAAAAAAALdEQgEAAAAABj2mH7PfoLyfkaiBkuOj9%2Br%2B2io%3DXYwBjuos4V07jUKb55PjW4eX5as45Nz4gpo7LuZhxPljVGz3uo
+    access_token : 460434543-WGD70Uvz0HsiFv1ExmXmp0xyLhh23TwjkK8cvGwl
+    access_token_secret : CjonCYbY2b9sdmaAvlw7sgGHkBvmLT9guEWuMwDWunkCP
