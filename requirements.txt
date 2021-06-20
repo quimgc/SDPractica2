@@ -46,3 +46,9 @@ redis
 pika
 #elasticsearch
 etcd3
+
+#afegits per mi
+tweepy
+json
+os
+matplotlib
